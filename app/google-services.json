@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "540879549416",
+    "firebase_url": "https://rasm-c0aa6.firebaseio.com",
+    "project_id": "rasm-c0aa6",
+    "storage_bucket": "rasm-c0aa6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:540879549416:android:b9c42cd570624db1",
+        "android_client_info": {
+          "package_name": "com.example.asmita.absent_form"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "540879549416-henm4711bm4ng97os52qac42njng9hk5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjGOYX7QutyVo1-BT4kk892HTNPs0ZP_U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

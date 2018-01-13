@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.asmita.absent_form.AbsentNAvigation"
+    tools:showIn="@layout/app_bar_absent_navigation"
+    android:id="@+id/rel"
+    android:background="@drawable/absentnav"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RASM"
+        android:layout_marginTop="10dp"
+        android:textSize="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Study Material"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="#4527a0"
+        android:textStyle="bold"
+        />
+
+
+
+    <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:layout_marginTop="15dp">
+   /* <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center">
+*/
+
+    <Button
+        android:id="@+id/networking"
+        android:layout_height="70dp"
+        android:layout_width="150dp"
+        android:text="Networking"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="#8E24AA"
+        android:onClick="openNet"
+        />
+
+    <Button
+        android:textColor="#FFFFFF"
+         android:layout_marginTop="15dp"
+        android:background="#8E24AA"
+        android:layout_gravity="center"
+        android:id="@+id/opensource"
+        android:layout_height="70dp"
+        android:layout_width="150dp"
+        android:text="Open source"
+        android:onClick="linus"
+
+        />
+
+
+    <Button
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="15dp"
+        android:background="#8E24AA"
+        android:layout_gravity="center"
+        android:id="@+id/webdevelopement"
+        android:layout_height="70dp"
+        android:layout_width="150dp"
+        android:text="web developement"
+        android:onClick="webd"
+        />
+    <Button
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="15dp"
+        android:background="#8E24AA"
+        android:layout_gravity="center"
+        android:id="@+id/language"
+        android:layout_height="70dp"
+        android:layout_width="150dp"
+        android:text="languages"
+        android:onClick="language"
+        />
+
+    <Button
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="15dp"
+        android:background="#8E24AA"
+        android:layout_gravity="center"
+        android:id="@+id/webdesigner"
+        android:layout_height="70dp"
+        android:layout_width="150dp"
+        android:text="Google  Developer"
+        android:onClick="google"
+        />
+
+        <Button
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="15dp"
+            android:background="#8E24AA"
+            android:layout_gravity="center"
+            android:id="@+id/webdesig"
+            android:layout_height="70dp"
+            android:layout_width="150dp"
+            android:text="Database Management"
+            android:onClick="database"/>
+
+    //</LinearLayout>
+</ScrollView>
+</LinearLayout>

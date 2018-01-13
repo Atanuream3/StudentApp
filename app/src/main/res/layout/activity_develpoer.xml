@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#424242"
+    android:orientation="vertical"
+    tools:context="com.example.asmita.absent_form.Develpoer">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_margin="10dp"
+        app:cardBackgroundColor="#3E2723"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="5dp"
+        app:contentPadding="10dp"
+        android:id="@+id/card">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:src="@drawable/asmita"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/text"
+                android:gravity="center"
+                android:text="Asmita Atanure"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="italic"
+
+                android:layout_marginTop="200dp"
+
+                />
+
+
+
+        </FrameLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="2000dp"
+        android:layout_margin="10dp"
+        app:cardBackgroundColor="#3E2723"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="5dp"
+        app:contentPadding="10dp"
+        android:id="@+id/card1">
+
+       <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/tetx"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:src="@drawable/rohit"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:id="@+id/text1"
+                android:gravity="center"
+                android:text="Rohit Khot"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:layout_marginTop="200dp"
+
+                />
+
+
+
+        </FrameLayout>
+
+
+    </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+
+    tools:context="com.example.asmita.absent_form.MainActivity">
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="30dp">
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-1156962038468117/4309402386">
+        </com.google.android.gms.ads.AdView>
+
+
+        <ImageView
+        android:layout_width="178dp"
+        android:layout_height="96dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/absence"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/textView3"
+        android:layout_toEndOf="@+id/textView3" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="50"
+        android:textColorHint="#424242"
+        android:hint="Enter Your Email"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="22dp"
+        />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+    <EditText
+
+        android:id="@+id/password"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:ems="50"
+        android:textColorHint="#424242"
+        android:hint="Enter a password"
+        android:inputType="textPassword"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="22dp"
+        />
+</android.support.design.widget.TextInputLayout>
+
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_login"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:padding="12dp"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:background="#1976D2"
+        android:layout_below="@+id/password"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="22dp"
+        android:onClick="loginUser"
+        />
+
+    <TextView
+        android:id="@+id/link"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="No account yet? Create one"
+        android:textColor="#0d47a1"
+        android:gravity="center"
+        android:textSize="16dp"
+        android:layout_below="@+id/btn_login"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:id="@+id/forgetpass"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Forget Password ?"
+        android:textColor="#d50000"
+        android:gravity="center"
+        android:textSize="16dp"
+        android:layout_below="@+id/link"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="19dp"
+        android:onClick="forgetPassword"/>
+
+
+
+</LinearLayout>
+    </ScrollView>
+</RelativeLayout>

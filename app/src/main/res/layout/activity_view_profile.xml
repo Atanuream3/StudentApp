@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="20dp"
+    tools:context="com.example.asmita.absent_form.ViewProfile">
+
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_margin="10dp"
+        app:cardBackgroundColor="#3E2723"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="5dp"
+        app:contentPadding="10dp"
+        android:id="@+id/card">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="259dp">
+
+    <ImageView
+        android:layout_width="257dp"
+        android:layout_height="243dp"
+        android:layout_gravity="center"
+        android:id="@+id/img"
+        />
+    </FrameLayout>
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+          android:text="Name:"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mobileno"
+        android:textSize="20dp"
+        android:text="Mobile No:"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:text="Email:"
+        />
+
+
+</LinearLayout>
+    </ScrollView>
+</RelativeLayout>

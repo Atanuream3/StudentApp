@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/atanure">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/url1"
+        android:text=" 1 Linux"
+        android:onClick="openlinux"
+        android:gravity="left"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      android:text="2.Spring"
+        android:id="@+id/spring"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="20dp"
+        android:onClick="springopen"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:text="3.Druple"
+        android:id="@+id/druple"
+        android:onClick="drupleopen"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4.Joomla"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+        android:onClick="joomlaopen"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="5.Zend"
+        android:textColor="#ffffff"
+        android:onClick="zendopen"
+        android:layout_marginBottom="20dp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="6.Xamarin"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+        android:onClick="xamarinopen"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="7.Sentcha Touch"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+        android:onClick="senchaopen"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="8.Mono"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+        android:onClick="monoopen"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="9.Android"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+        android:onClick="androidopen"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="10.Angular JS"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="20dp"
+        android:onClick="nodeopen"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:text="11.Node JS"
+        android:layout_marginBottom="20dp"
+        android:onClick="nodejsopen"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="12.React Js"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+        android:onClick="reactjsopen"
+        />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="#ffffff"
+    android:textSize="20dp"
+    android:text="13.Linux Commands"
+   android:layout_marginBottom="20dp"
+    android:onClick="linuxopen"
+
+    />
+
+
+</LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

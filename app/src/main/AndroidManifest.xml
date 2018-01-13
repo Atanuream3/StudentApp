@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.asmita.absent_form">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/absence"
+        android:label="RASM"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".feedback" />
+        <activity android:name=".Signup" />
+        <activity android:name=".ReasonForm" />
+        <activity android:name=".ChangePassword" />
+        <activity android:name=".Passforget" />
+        <activity
+            android:name=".AbsentNAvigation"
+            android:label="@string/title_activity_absent_navigation"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Schedule" />
+        <activity android:name=".Uploadpic" />
+        <activity android:name=".VerificationEmail" />
+        <activity android:name=".ChangeProfilePhoto" />
+        <activity android:name=".Networking" />
+        <activity android:name=".Linux" />
+        <activity android:name=".ViewProfile" />
+        <activity android:name=".Develpoer" />
+        <activity android:name=".SampleD" />
+        <activity android:name=".Languages" />
+        <activity android:name=".Mygo" />
+        <activity android:name=".WebDevelopement" />
+        <activity android:name=".Database" />
+        <activity android:name=".PythonL" />
+        <activity android:name=".Asp" />
+        <activity android:name=".Php" />
+        <activity android:name=".Csharp" />
+        <activity android:name=".Springlayout" />
+        <activity android:name=".Drupallan" />
+        <activity android:name=".Joomlaopenlan" />
+        <activity android:name=".Zendlan" />
+        <activity android:name=".Xamarinlan" />
+        <activity android:name=".Snecha_touchlan" />
+        <activity android:name=".Monolan" />
+        <activity android:name=".Androidlan" />
+        <activity android:name=".AngularJs" />
+        <activity android:name=".Node_Js" />
+        <activity android:name=".ReactJs" />
+        <activity android:name=".LinuxCommands"></activity>
+    </application>
+
+</manifest>

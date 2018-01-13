@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.asmita.absent_form.Uploadpic">
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/imageView" />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F57F17"
+        android:text="Upload Image"
+        android:id="@+id/buttonUpload" />
+
+    <Button
+        android:id="@+id/buttonChoose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#388E3C"
+        android:text="Choose Image" />
+
+
+</LinearLayout>

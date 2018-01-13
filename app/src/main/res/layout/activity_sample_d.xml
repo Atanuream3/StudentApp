@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:orientation="vertical"
+    tools:context="com.example.asmita.absent_form.SampleD">
+
+
+
+    <ScrollView
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:layout_margin="10dp"
+            app:cardBackgroundColor="#3E2723"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="5dp"
+            app:contentPadding="10dp">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/image1"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/asmita" />
+
+                <TextView
+                    android:id="@+id/text1"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="200dp"
+                    android:gravity="center"
+                    android:text="Asmita Atanure"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp"
+
+                    android:textStyle="italic"
+
+                    />
+
+                <TextView
+                    android:id="@+id/text"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="200dp"
+                    android:gravity="center"
+                    android:text="Asmita Atanure"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp"
+
+                    android:textStyle="italic"
+
+                    />
+
+                <ImageView
+                    android:id="@+id/image"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/asmita" />
+
+
+            </FrameLayout>
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
